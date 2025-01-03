@@ -6,7 +6,7 @@ const Footer = ({ theme }) => {
   return (
     <>
       <div
-        id="Footer"
+        id="Contact"
         className={`flex justify-around gap-14 p-10 md:p-12 items-center ${
           theme
             ? "bg-gray-200 text-black"
