@@ -81,7 +81,7 @@ const Navbar = ({ handleTheme, theme }) => {
 
       {/* Desktop Menu */}
       <ul className="hidden md:flex gap-6 items-center">
-        {["About", "Skills", "Projects", "Footer"].map((item) => (
+        {["About", "Skills", "Projects", "Contact"].map((item) => (
           <a key={item} href={`#${item}`} className="relative group">
             <li className="text-md transition-all duration-300 p-2 hover:text-gray-400">
               {item}
