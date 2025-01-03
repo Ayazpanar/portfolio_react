@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import ProjectCard from "./ProjectCard";
 import eventBanner from "../../assets/EventBanner.png";
-import musicBanner from "../../assets/musicBanner.png";
+import musicBanner from "../../assets/MusicBanner.png";
 import weatherBanner from "../../assets/WeatherBanner.png";
 import notesBanner from "../../assets/NotesBanner.png";
 
