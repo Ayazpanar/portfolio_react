@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link id="icon" rel="icon" type="image/svg+xml" href="" sizes="100" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <script type="module" crossorigin src="/assets/index-CEp1oFTy.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CcBI8PKa.css">
+  </head>
+  <body>
+    <script >
+      // Check if the user prefers a dark color scheme
+const isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches;
+const favIcon = document.getElementById("icon");
+if (isDarkMode) {
+  console.log("Dark")
+  favIcon.href = "/Licon.png"
+} else {
+  console.log("Light")
+  favIcon.href = "/Dicon.png"
+  // Apply light theme styles
+}
+    </script>
+    <div id="root"></div>
+  </body>
+</html>
