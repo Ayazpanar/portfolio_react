@@ -56,7 +56,7 @@ const Skils = ({ theme }) => {
 
   return (
     <div
-      id="Skils"
+      id="Skills"
       className={`p-10 md:p-24 flex flex-col items-center transition-colors duration-300 ${
         theme ? "bg-white text-black" : "bg-[#171d32] text-white"
       }`}
