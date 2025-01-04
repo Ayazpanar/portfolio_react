@@ -14,7 +14,7 @@ A responsive portfolio website with a **light and dark theme toggle** to showcas
 ## Installation  
 1. Clone the repo:  
    ```bash  
-   git clone https://github.com/yourusername/portfolio-website.git
+   git clone https://github.com/Ayazpanar/portfolio_react.git
 
 2. Install dependencies:
    ```bash
