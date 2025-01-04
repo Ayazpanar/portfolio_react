@@ -1,8 +1,34 @@
-# React + Vite
+# React + Vite Portfolio Website  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive portfolio website with a **light and dark theme toggle** to showcase my skills, projects, and achievements.  
 
-Currently, two official plugins are available:
+## Features  
+- Light/Dark Theme Toggle for a personalized experience.  
+- Fully responsive design for all devices.  
+- Sections for skills, projects, and contact information.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies  
+- ReactJS, HTML, CSS, JavaScript  
+- Deployed on Netlify 
+
+## Installation  
+1. Clone the repo:  
+   ```bash  
+   git clone https://github.com/yourusername/portfolio-website.git
+
+2. Install dependencies:
+
+npm install
+
+
+3. Run the project:
+
+npm start
+
+
+
+Live Demo
+
+Visit: ayazpanar-portfolio.netlify.app
+
+
