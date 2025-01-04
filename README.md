@@ -22,7 +22,7 @@ A responsive portfolio website with a **light and dark theme toggle** to showcas
 
 3. Run the project:
    ```bash
-   npm start
+   npm run dev
 
 Live Demo
 
