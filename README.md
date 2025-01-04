@@ -17,12 +17,12 @@ A responsive portfolio website with a **light and dark theme toggle** to showcas
    git clone https://github.com/yourusername/portfolio-website.git
 
 2. Install dependencies:
-
+```bash
 npm install
 
 
 3. Run the project:
-
+```bash
 npm start
 
 
