@@ -20,12 +20,9 @@ A responsive portfolio website with a **light and dark theme toggle** to showcas
    ```bash
    npm install
 
-
 3. Run the project:
    ```bash
    npm start
-
-
 
 Live Demo
 
