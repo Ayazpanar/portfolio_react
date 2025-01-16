@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { FaHtml5, FaCss3, FaJs, FaReact, FaNode, FaSchool } from "react-icons/fa";
-import { FaSchool as FaCollage } from "react-icons/fa6";
+import { FaGraduationCap as FaCollage } from "react-icons/fa6";
 import {
   SiExpress,
   SiMysql,
