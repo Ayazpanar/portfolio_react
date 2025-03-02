@@ -11,6 +11,7 @@ import {
   SiBootstrap,
   SiGithub,
   SiGit,
+  SiJest,
 } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 
@@ -28,6 +29,7 @@ const Skils = ({ theme }) => {
     { icon: <SiBootstrap color="purple" size={50} />, label: "Bootstrap" },
     { icon: <SiTailwindcss color="#38B2AC" size={50} />, label: "Tailwind" },
     { icon: <SiJquery color="#0769AD" size={50} />, label: "jQuery" },
+{ icon: <SiJest color="#99415B" size={50} />, label: "Jest" },
     { icon: <SiGit color="orange" size={50} />, label: "Git" },
     { icon: <SiGithub color={ theme?"#000000":"#ffffff"} size={50} />, label: "GitHub" },
     { icon: <VscVscode color="#007ACC" size={50} />, label: "VSCode" },
