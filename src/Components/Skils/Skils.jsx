@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import { FaHtml5, FaCss3, FaJs, FaReact, FaNode, FaSchool } from "react-icons/fa";
+import { RiNextjsFill } from "react-icons/ri";
 import { FaGraduationCap as FaCollage } from "react-icons/fa6";
 import {
   SiExpress,
@@ -18,6 +19,7 @@ const Skils = ({ theme }) => {
     { icon: <FaHtml5 color="#E34F26" size={50} />, label: "HTML" },
     { icon: <FaCss3 color="#1572b6" size={50} />, label: "CSS" },
     { icon: <FaJs color="yellow" size={50} />, label: "JavaScript" },
+{ icon: <RiNextjsFill color="#000000" size={50} />, label: "Next.js" },
     { icon: <FaReact color="#61DBFB" size={50} />, label: "React" },
     { icon: <FaNode color="green" size={50} />, label: "Node" },
     { icon: <SiExpress color="yellow" size={50} />, label: "Express" },
