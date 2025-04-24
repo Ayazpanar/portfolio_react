@@ -23,6 +23,7 @@ import {
 } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 
+
 const Skils = ({ theme }) => {
   const skills = [
     { icon: <FaHtml5 color="#E34F26" size={50} />, label: "HTML" },
