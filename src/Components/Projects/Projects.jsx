@@ -9,7 +9,7 @@ const Projects = ({ theme }) => {
   return (
     <div
       id="Projects"
-      className={`p-10 md:p-24 transition-colors duration-300 ${
+      className={`p-4 mt-16 transition-colors duration-300 ${
         theme ? "bg-white text-black" : "bg-[#171d32] text-white"
       }`}
     >

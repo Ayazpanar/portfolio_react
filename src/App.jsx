@@ -5,13 +5,13 @@ import Home from "./Components/Home/Home";
 import Navbar from "./Components/Navbar/Navbar";
 import Projects from "./Components/Projects/Projects";
 import Skils from "./Components/Skils/Skils";
+import Experience from "./Components/Experience/Experience";
 
 function App() {
     const [theme, setTheme] = useState(false);
 
     const handleTheme = () => {
         setTheme(!theme);
-        console.log(theme);
     };
 
     return (
@@ -24,6 +24,7 @@ function App() {
             <Home theme={theme} />
             <About theme={theme} />
             <Skils theme={theme} />
+            <Experience theme={theme} />
             <Projects theme={theme} />
             <Footer theme={theme} />
         </div>

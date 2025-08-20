@@ -65,12 +65,12 @@ const Skils = ({ theme }) => {
     {
       icon: <FaCollage size={40} color={`${theme ? "black" : "white"}`} />,
       title: "BSc (CA & IT) - Hemchandracharya North Gujarat University, Patan",
-      details: "CGPA: 7.8",
+      details: "CGPA: 7.80",
     },
     {
       icon: <FaCollage size={40} color={`${theme ? "black" : "white"}`} />,
       title: "MSc (CA & IT) - Hemchandracharya North Gujarat University, Patan",
-      details: "Pursuing",
+      details: "CGPA: 8.25",
     },
   ];
 
@@ -108,7 +108,7 @@ const Skils = ({ theme }) => {
           <div key={index} className="flex items-start gap-8">
             <div style={{ minWidth: "30px" }}>{edu.icon}</div>
             <div>
-              <h2 className="leading-tight font-semibold">{edu.title}</h2>
+              <h2 className="leading-tight font-semibold mb-1">{edu.title}</h2>
               <p className="text-sm leading-tight font-thin">{edu.details}</p>
             </div>
           </div>
